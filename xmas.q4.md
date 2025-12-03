@@ -1,6 +1,6 @@
 layout: page
 title: "The “Christmas shopping season” is really a Q4 economic mechanism"
-permalink: /xmasq4
+permalink: /xmasq4.md
 
 The Q4 economic cycle absolutely _is_ the real underlying engine behind why the world “spends money” near Christmas
 
