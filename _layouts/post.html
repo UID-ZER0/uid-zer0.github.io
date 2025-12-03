@@ -11,18 +11,16 @@
   <!-- Terminal header -->
   <header class="terminal-header">
     <div class="terminal-title">
-      uid-zer0@net:~$ ./read_article
+      uid-zer0@net:~$ cat {{ page.title | slugify }}.txt
     </div>
   </header>
 
-  <!-- Fixed sidebar -->
+  <!-- Minimal fixed sidebar -->
   <div class="sidebar">
-    <a href="/" class="nav-item">Home</a>
     <a href="/" class="nav-item">Articles</a>
-    <a href="#" class="nav-item">About</a>
   </div>
 
-  <!-- Main article container -->
+  <!-- Article content -->
   <div class="container">
     <article class="post-card neon-border">
       <a href="/" class="back-btn">← Back to Articles</a>
