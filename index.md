@@ -4,7 +4,7 @@ title: "uid-zer0"
 ---
 
 <div class="container">
-  <h1>Archives💾</h1>
+  <h1>Archive💾</h1>
   <p>Critical essays on the structures underneath modern life</p>
 
   <h2>Latest Articles</h2>
