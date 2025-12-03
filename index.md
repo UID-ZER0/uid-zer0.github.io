@@ -1,9 +1,24 @@
-<h2>Articles</h2>
+---
+layout: default
+title: "uid-zer0"
+---
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+<div class="container">
+  <h1>uid-zer0 Archives</h1>
+  <p>Critical essays on economics, systems, and the structures underneath modern life.</p>
+
+  <h2>Latest Articles</h2>
+
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <div class="card">
+          <a href="{{ post.url }}">
+            <h3>{{ post.title }}</h3>
+          </a>
+          <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
