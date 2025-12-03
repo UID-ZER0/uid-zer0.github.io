@@ -1,0 +1,45 @@
+body {
+  background-color: #000000;
+  color: #e0e0e0;
+  font-family: Consolas, Menlo, Monaco, "Courier New", monospace;
+  margin: 0;
+  padding: 2rem;
+  line-height: 1.7;
+}
+
+a {
+  color: #00ff9c; /* neon green */
+  text-decoration: none;
+}
+
+a:hover {
+  text-shadow: 0 0 8px #00ff9c;
+}
+
+h1, h2, h3, h4 {
+  color: #ffffff;
+  text-shadow: 0 0 10px #00ff9c33;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.8rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.card {
+  background-color: #0a0a0a;
+  padding: 1.5rem;
+  border: 1px solid #00ff9c55;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 12px #00ff9c22;
+}
