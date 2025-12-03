@@ -13,7 +13,11 @@ a {
 a:hover {
   text-shadow: 0 0 8px #00ff9c;
 }
-h1, h2, h3, h4 {
+h1 {
+  color: #00ff9c55;
+  text-shadow: 0 0 10px #00ff9c33;
+}
+h2, h3, h4 {
   color: #ffffff;
   text-shadow: 0 0 10px #00ff9c33;
 }
