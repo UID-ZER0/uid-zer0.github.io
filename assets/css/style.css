@@ -27,7 +27,7 @@ li {
 .container {
   margin-left: 50px; /* move content away from sidebar */
   max-width: 760px;
-  padding: .5rem;
+  padding: 2rem;
 }
 
 .card {
