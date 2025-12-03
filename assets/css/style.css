@@ -55,7 +55,7 @@ li {
 }
 .post-card h1 {
   margin-top: 0;
-  color: #ffffff;
+  color: #00ff9c55;
   text-shadow: 0 0 12px #00ff9c33;
 }
 .post-content p {
@@ -70,7 +70,7 @@ li {
 .post-content h3,
 .post-content h4 {
   margin-top: 2rem;
-  color: #ffffff;
+  color: #00ff9c55;
   text-shadow: 0 0 6px #00ff9c33;
 }
 
