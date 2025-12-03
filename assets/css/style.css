@@ -27,7 +27,7 @@ li {
 .container {
   margin-left: 50px; /* move content away from sidebar */
   max-width: 760px;
-  padding: 2rem;
+  padding: .5rem;
 }
 
 .card {
@@ -118,13 +118,13 @@ li {
   border-bottom: 1px solid #00ff9c66;
   box-shadow: 0 0 12px #00ff9c33;
   margin-bottom: 2rem;
-  margin-left: 70px;
 }
 .terminal-title {
   color: #00ff9c;
   font-family: Consolas, monospace;
   font-size: 1rem;
   letter-spacing: 1px;
+  margin-left: 4rem;
 }
 
 
