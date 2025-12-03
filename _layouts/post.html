@@ -7,9 +7,26 @@
 </head>
 
 <body>
+
+  <!-- Terminal header -->
+  <header class="terminal-header">
+    <div class="terminal-title">
+      uid-zer0@net:~$ ./read_article
+    </div>
+  </header>
+
+  <!-- Fixed sidebar -->
+  <div class="sidebar">
+    <a href="/" class="nav-item">Home</a>
+    <a href="/" class="nav-item">Articles</a>
+    <a href="#" class="nav-item">About</a>
+  </div>
+
+  <!-- Main article container -->
   <div class="container">
-    <article class="post-card">
+    <article class="post-card neon-border">
       <a href="/" class="back-btn">← Back to Articles</a>
+
       <h1>{{ page.title }}</h1>
 
       <div class="post-content">
@@ -17,5 +34,6 @@
       </div>
     </article>
   </div>
+
 </body>
 </html>
